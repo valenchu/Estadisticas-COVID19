@@ -1,0 +1,14 @@
+.contenedor{
+    border: 2px dashed #ffc5c5;
+    padding: 5px 20px;
+    border-radius: 20px;
+    background-color: #80cccc;
+    font-family: cursive;
+    width: 720px;
+    margin: auto;
+}
+body{
+    background: #2f2f2f;
+}
+b.fecha{margin-right: 5%;}
+b.pais{margin-right: 7%;}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estadísticas COVID</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="contenedor">
+        <h1>Estadisticas COVID 19</h1>
+    <div class="alinear">
+        <b class="fecha">Fecha</b> <input id="inputFecha" name="fecha" type="date" /><br />
+        <b class="pais">País</b> <select id="selectPais" name="pais" id="">
+            <option value="Spain">España</option>
+            <option value="Germany">Alemania</option>
+            <option value="Argentina">Argentina</option>
+            <option value="Italy">Italia</option>
+            <option value="US">Estados Unidos</option>
+            <option value="Peru">Peru</option>
+            <option value="Mexico">Mexico</option>
+            <option value="Brazil">Brasil</option>
+            <option value="Uruguay">Uruguay</option>
+            <option value="Chile">Chile</option>
+            <option value="Paraguay">Paraguay</option>
+        </select><br />
+        </div>
+        <button id="btnCargar">Cargar Estadísticas</button>
+        <br />
+        <br />
+        <ul>
+            <li> Fuente <span id="source"></span></li>
+            <li>Confirmados de hoy <span id="today_confirmed"></span></li>
+            <li>Muertes de hoy <span id="today_deaths"></span></li>
+            <li> Nuevos confirmados de hoy <span id="today_new_confirmed"></span></li>
+            <li> Nuevas muertes de hoy <span id="today_new_deaths"></span></li>
+            <li>Casos recuperados de hoy <span id="today_new_recovered"></span></li>
+            <li>Casos abiertos hoy <span id="today_open_cases"></span></li>
+            <li>Casos recuperados hoy <span id="today_recovered"></span></li>
+            <li> Confirmados de ayer <span id="yesterday_confirmed"></span></li>
+            <li> Muertes de ayer <span id="yesterday_deaths"></span></li>
+            <li>Casos abiertos de ayer <span id="yesterday_open_cases"></span></li>
+            <li> Casos recuperados de ayer <span id="yesterday_recovered"></span></li>
+        </ul>
+
+    </div>
+    <script src="covis.js"></script>
+</body>
+
+</html>
